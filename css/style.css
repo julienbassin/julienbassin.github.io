@@ -1,0 +1,185 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-weight: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    background-color: hsl(185, 75%, 39%);
+    width: 1440px;
+}
+
+.pattern-top{
+    position: absolute;
+    right: 50%;
+    bottom: 30%;
+    display: inline-block;
+}
+
+.pattern-bottom{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    display: inline-block;
+}
+
+.card{
+    box-shadow: 10px 10px 100px rgba(0,0,0,0.2);
+    background-color: #FFF;
+    width: 350px;
+    height: 374px;
+    border-radius: 10px;
+    position: absolute;
+    top: 173px;
+    left: 545px;
+}
+
+.card-image{
+    position:absolute;
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    border: 6px solid #FFF;
+    left: calc(50% - 96px/2);
+    top: calc(50% - 96px/2 - 47px);
+}
+
+.card-image img{
+    border-radius: 50%;
+}
+
+.card-header{
+    width: 350px;
+    height: 140px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #41CBD3;
+}
+
+.card-header img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body{
+    width: 100%;
+    height: 146px;
+}
+
+.card-body .card-body-title{
+    position: absolute;
+    width: 135px;
+    height: 23px;
+    left: 33.86%;
+    right: 30.57%;
+    top: 54.68%;
+    bottom: 37.17%;
+}
+
+.card-body .card-body-title h4{
+    position: absolute;
+    height: 18px;
+    left: 0%;
+    right: 22.96%;
+    top: calc(50% - 36px/2 - 2.5px);
+    font-family: Kumbh Sans;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 18px;
+    text-align: center;
+    color: #2E3349;
+}
+
+.card-body .card-body-title p{
+    position: absolute;
+    width: 22px;
+    height: 18px;
+    left: 83.33%;
+    right: 0.37%;
+    top: calc(50% - 24px/2 - 2.5px);
+    font-family: Kumbh Sans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    color: #6B7082;
+}
+
+.card-body .card-body-data {
+    position: absolute;
+    width: 50px;
+    height: 14px;
+    left: 165px;
+    right: 150px;
+    top: calc(50% - 14px/2 + 53px);
+    font-family: Kumbh Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: #6B7082;
+}
+
+.card-footer{
+    width: 100%;
+    height: 88px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: 1px solid #E8E9EC;
+
+}
+
+.flex-row-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 249px;
+    height: 40px;
+    position: absolute;
+    left: 47px;
+    top: 310px;
+    right: 54px;
+}
+
+.flex-row-item-1{
+    width: 59px;
+    height: 40px;
+}
+
+
+.flex-row-item-2{
+    width: 47px;
+    height: 40px;
+}
+
+.flex-row-item-3{
+    width: 43px;
+    height: 40px;   
+}
+
+.flex-row-item-1,
+.flex-row-item-2,
+.flex-row-item-3{
+    text-align: center;
+}
+
+.flex-row-item-1 .p1,
+.flex-row-item-2 .p1,
+.flex-row-item-3 .p1{
+    font-family: Kumbh Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+}   
+
+.flex-row-item-1 .p2,
+.flex-row-item-2 .p2,
+.flex-row-item-3 .p2{
+    font-family: Kumbh Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: center;
+    letter-spacing: 1.5px;
+}
